@@ -1,12 +1,31 @@
-# React + Vite
+# Monad Testnet dApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple ERC-20 token dApp deployed on the Monad Testnet.
 
-Currently, two official plugins are available:
+## 🔧 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Deploy and interact with ERC-20 contract
+- `mint`, `transfer`, `balanceOf` functions via frontend
+- Deployed to Monad Testnet
 
-## Expanding the ESLint configuration
+## 🧪 How to Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repo:
+git clone https://github.com/Aryan-s04/monad-testnet-dapp.git
+cd monad-testnet-dapp
+
+2. Install dependencies:
+npm install
+
+3. Run the app:
+npm run dev
+
+## 🔗 Contract Info
+
+- Address: `0xb5411db47f78f71ed4ab07dab5af70b22db16290`
+- Network: [Monad Testnet](https://monadlabs.xyz/)
+- ABI: included in frontend
+
+## ✍️ Author
+
+Aryan-s04
